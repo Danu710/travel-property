@@ -16,13 +16,13 @@ import { FiKey } from "react-icons/fi";
 const Navbar = () => {
   return (
     <nav className="bg-white border-b border-gray-300 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-      <div class="container flex flex-wrap items-center justify-between mx-auto">
-        <div class="flex md:order-1 font-3xl text-blue-400 font-bold">
+      <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <div className="flex md:order-1 font-3xl text-blue-400 font-bold">
           <Link href="/" paddingLeft="2">
             Realtor
           </Link>
         </div>
-        <div class="flex md:order-2">
+        <div className="flex md:order-2">
           <Menu>
             <MenuButton
               as={IconButton}
